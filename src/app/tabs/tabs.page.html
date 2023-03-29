@@ -6,13 +6,13 @@
   </ion-header>
   <ion-content class="ion-padding">
     <ion-item (click)="selccionarInicio()" [routerLink]="'tab1'">
-      <ion-label>INICIO</ion-label>
+      <ion-item [routerLink]="['/tabs/tab1']">INICIO</ion-item>
     </ion-item>
     <ion-item (click)="selccionarOpcion1()" [routerLink]="'tab2'">
-      <ion-label>OPCION 1</ion-label>
+      <ion-item [routerLink]="['/tabs/tab2']">OPCION 1</ion-item>
     </ion-item>
     <ion-item (click)="selccionarOpcion2()" [routerLink]="'tab3'">
-      <ion-label>OPCION 2</ion-label>
+      <ion-item [routerLink]="['/tabs/tab3']">OPCION 2</ion-item>
     </ion-item>
   </ion-content>
 
